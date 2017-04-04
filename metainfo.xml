@@ -83,7 +83,7 @@
 			<package><name>libxml2-dev</name></package> 
 			<package><name>libxslt-dev</name></package> 
 			<package><name>make</name></package> 
-			<package><name>mvn</name></package> 
+			<package><name>maven</name></package> 
 			<package><name>libldap2-dev</name></package> 
 			<package><name>python-dev</name></package> 
 			<package><name>python-setuptools</name></package> 
