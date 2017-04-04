@@ -54,6 +54,7 @@ def download_hue():
   """
   Download Hue to the installation directory
   """
+  Execute('mkdir {0}'.format(params.hue_dir))
   download_url = 'echo https://dl.dropboxusercontent.com/u/730827/hue/releases/3.12.0/hue-3.12.0.tgz'
   Execute('{0} | xargs wget -O hue.tgz'.format(download_url))
   Execute('tar -zxvf hue.tgz -C {0} && rm -f hue.tgz'.format(params.hue_install_dir))
