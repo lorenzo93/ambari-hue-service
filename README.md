@@ -1,3 +1,7 @@
+# Experimental
+
+## Trying to get this script working on Ubuntu OS's
+
 #### An Ambari Service for Hue
 Ambari service for easily installing and managing Hue on HDP cluster.
 
